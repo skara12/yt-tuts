@@ -60,19 +60,14 @@ text-align : left;
 
 text-indent: 48px;
 color: #2f2d2d;
+		
+width: auto;
 	
+height : auto;
 	
-	width: 1000px;
+background: #fff5f7;
 	
-	height : auto;
-	
-	background: #fff5f7;
-	
-	margin: 25px auto;
-	
-	border: solid 2px #c9d2d6;
-	
-	padding: 20px;	
+
 }
 
 
