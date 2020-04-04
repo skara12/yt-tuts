@@ -51,6 +51,18 @@ ul {
 li {
   display: inline;
 }
+#text{
+	
+font-family:"Calibri";
+font-size : 12pt;
+
+text-align : left;
+
+text-indent: 48px;
+color: #2f2d2d;		
+}
+
+
 p{
 
 font-family:"Calibri";
