@@ -2,15 +2,12 @@ body {
 
 background: #196dff;
 
-/*text-align: center;*/
-text-align: left;
-
 }
 #main{
 	
 	width: 1000px;
 	
-	height : 600px;
+	height : auto;
 	
 	background: #fff5f7;
 	
@@ -19,13 +16,6 @@ text-align: left;
 	border: solid 2px #c9d2d6;
 	
 	padding: 20px;
-	/*font-family:"Calibri";
-font-size : 12pt;
-
-text-align : left;
-
-text-indent: 48px;
-color: #2f2d2d;*/	
 	
 }
 h1{
@@ -51,25 +41,6 @@ ul {
 li {
   display: inline;
 }
-#text{
-	
-font-family:"Calibri";
-font-size : 12pt;
-
-text-align : left;
-
-text-indent: 48px;
-color: #2f2d2d;
-		
-	
-height : auto;
-	
-background: #fff5f7;
-	
-
-}
-
-
 p{
 
 font-family:"Calibri";
@@ -82,11 +53,6 @@ color: #2f2d2d;
 	
 	
 }
-/*span{
-	
-width: 100%;
-text-align : left;
-}*/	
-	
+
 	
 	
