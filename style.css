@@ -2,6 +2,8 @@ body {
 
 background: #196dff;
 
+text-align : left;	
+	
 }
 #main{
 	
@@ -16,6 +18,8 @@ background: #196dff;
 	border: solid 2px #c9d2d6;
 	
 	padding: 20px;
+	
+	
 	
 }
 h1{
@@ -45,8 +49,6 @@ p{
 
 font-family:"Calibri";
 font-size : 12pt;
-
-text-align : left;
 
 text-indent: 48px;
 color: #2f2d2d;	
