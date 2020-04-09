@@ -6,7 +6,7 @@ text-align : left;
 	
 }
 .main{
-	position: relative;
+	
 	width: 1000px;
 	
 	height : auto;
@@ -24,6 +24,7 @@ text-align : left;
 }
 .colum{
 	
+  position: relative;	
   float: left;
   width: 33.333%;
   padding: 10px;
