@@ -6,7 +6,7 @@ text-align : left;
 	
 }
 .main{
-	position: absolute;
+	position: relative;
 	width: 1000px;
 	
 	height : auto;
