@@ -22,6 +22,13 @@ text-align : left;
 	
 	
 }
+.colum{
+  float: left;
+  width: 33.333%;
+  padding: 10px;
+	
+}
+	
 h1{
 	
 	text-align: center;
@@ -55,11 +62,5 @@ color: #2f2d2d;
 	
 	
 }
-div.colum{
-  float: left;
-  width: 33.333%;
-  padding: 10px;
-	
-}
-	
+
 	
