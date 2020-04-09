@@ -23,6 +23,8 @@ text-align : left;
 	
 }
 .colum{
+	
+  position: absolute;
   float: left;
   width: 33.333%;
   padding: 10px;
