@@ -76,6 +76,7 @@ color: #2f2d2d;
 .image{
     
     text-align: center;	
-   	
+     width:100%;
+    height: auto;
 }
 	
