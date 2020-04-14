@@ -79,4 +79,18 @@ color: #2f2d2d;
      width:100%;
     height: auto;
 }
+footer{
 	
+	width: 1000px;
+	
+	height : auto;
+	
+	background: #fff5f7;
+	
+	margin: 25px auto;
+	
+	border: solid 2px #c9d2d6;
+	
+	padding: 20px;
+	
+}
