@@ -10,6 +10,8 @@
 <title> HOME | Sample Site </title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	</head>
 
 <body>
@@ -44,12 +46,12 @@
 
 <div class="blog-title">
 <h2>Convert Rubber Ducky to Digispark Script for different Keyboard Layouts</h2>
-<i class="fa fa-volume-up" aria-hidden="true"></i>
+<i class="fa fa-volume-up" onclick="textSpeak()" aria-hidden="true"></i>
 <a href="https://youtu.be/4co6aZt97fE"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
 </div>
 	
 	
-<p>Encoder:
+<p id="txt">Encoder:
 https://github.com/hak5darren/USB-Rubber-Ducky/blob/master/Encoder/encoder.jar
 
 Supported Keyboard Layouts:
