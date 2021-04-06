@@ -1,3 +1,4 @@
+
 *{
 padding : 0;
 margin : 0;
@@ -87,8 +88,14 @@ margin: 10px;
 
 section{
 
-padding:20px;
+padding: 20px;
 
+
+}
+section#post{
+
+
+padding: 20px 40px 20px 40px;
 
 }
 
@@ -117,13 +124,6 @@ main p{
 font-size: 1.1rem;
 line-height: 1.6rem;
 padding: 0px 20px 0px 20px;
-
-
-}
-
-main a{
-
-color: blue;
 
 
 }
@@ -250,6 +250,15 @@ width: 100%;
 
 
 }
+
+
+section#post{
+
+
+padding: 20px;
+
+}
+
 
 
 }
