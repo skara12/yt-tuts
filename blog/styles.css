@@ -85,6 +85,21 @@ margin: 10px;
 
 }
 
+main i{
+
+
+margin-left:auto;
+
+padding: 10px 20px 10px 20px;
+
+}
+.blog-title{
+	
+display:flex;
+width:100%;	
+align-items:center;	
+}
+
 section{
 
 padding: 20px;
