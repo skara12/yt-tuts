@@ -72,9 +72,12 @@ Use Android services to send sms from adb shell
 	
 	service list | grep 'sms'
 	<br>
+	<br>
 	getprop | grep 'sdk'
 	<br>
+	<br>
 	service check isms 
+	<br>
 	<br>
 	service call isms 7 i32 0 s16 "com.android.mms.services" s16 "+1234566789" s16 "null" s16 "hello world" s16 "null" s16 "null"
 	
