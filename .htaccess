@@ -5,7 +5,7 @@ Deny from all
 
 
 
-<Files script.js>
+<Files styles.css>
 Order allow,deny
 Deny from all
 </Files>
