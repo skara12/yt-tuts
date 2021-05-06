@@ -1,0 +1,11 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+
+
+<Files script.js>
+Order allow,deny
+Deny from all
+</Files>
