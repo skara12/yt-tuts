@@ -7,7 +7,7 @@ var sear = "Wireshark";
 function search(){
 	
 	var input = document.getElementsByName('search');
-	sear = input.value;
+	sear = input[0].value;
 	console.log(sear);
 window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	
