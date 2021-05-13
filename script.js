@@ -26,16 +26,16 @@ function listlinks(){
     "macrodroid-app-example-2.html",
 	"macrodroid-app-example-3.html"];
 	
-	var main = document.getElementById('main');
-    var section = document.createElement('section');
-	var h2 = document.createElement('h2');
-	var a = document.createElement('a');
-	var hr = document.createElement('hr');
+
 	
 	
 	links.forEach(link => {
 		
-		
+			var main = document.getElementById('main');
+    var section = document.createElement('section');
+	var h2 = document.createElement('h2');
+	var a = document.createElement('a');
+	var hr = document.createElement('hr');
 		
 		console.log(link.indexOf(sear));
 		
