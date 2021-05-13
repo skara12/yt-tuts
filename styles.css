@@ -147,12 +147,6 @@ line-height:1.6rem;
 padding:20px;
 
 }
-aside div#search{
-	
-margin-left: 20px;
-margin-top: 20px;
-margin-bottom:20px; 	
-}
 aside ul{
 
 padding: 0px 20px 0px 20px;
@@ -166,7 +160,11 @@ line-height: 1.6rem;
 list-style: none;
 padding: 3px 0px 3px 0px;
 }
-
+aside div#search{
+	
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom:20px; 
 hr{
 
 margin:0px 15px 0px 15px;

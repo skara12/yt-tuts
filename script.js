@@ -1,0 +1,66 @@
+var search;
+
+
+
+
+
+function search(){
+	
+	var input = document.getElementsByName('search');
+	search = input.value;
+window.open("https://skara12.github.io/yt-tuts/search.html","_self");
+	
+}
+
+
+function listlinks(){
+	
+	var path = "blog/";
+	var links = ["Convert-Rubber-Ducky-to-Digispark-Script-for-different-Keyboard-Layouts.html",
+	"Decoding-Wireshark-Keylogs-with-Python.html",
+	"Get-Clipboard-from-ADB-Shell.html",
+	"How-to-find-XY-Coordinates-for-ADB-shell-input-tap-Command.html",
+	"Send-SMS-from-Adb-Shell.html",	
+    "macrodroid-app-example-1.html",
+    "macrodroid-app-example-2.html",
+	"macrodroid-app-example-3.html"];
+	
+	var main = document.getElementsByTagName('main');
+    var section = document.createElement('section');
+	var h2 = document.createElement('h2');
+	var a = document.createElement('a');
+	var hr = document.createElement('hr');
+	
+	
+	links.forEach(link => {
+		
+		
+		if(link.indexOf(search) > 0){
+			
+			
+			var title = link.split('.');
+			
+			a.textContent = title[0].replace("-", " ");
+			
+			a.setAttribute("href",path + link);
+			
+			h2.append(a);
+			
+			section.append(h2);
+			main.append(section);
+			main.append(hr);
+			
+		}
+		
+		
+	})
+	
+	
+
+
+
+
+	
+	
+	
+}
