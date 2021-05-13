@@ -44,7 +44,7 @@ function listlinks(){
 			
 			var title = link.split('.');
 			
-			a.textContent = title[0].replace("-", " ");
+			a.textContent = title[0].replaceAll("-", " ");
 			
 			a.setAttribute("href",path + link);
 			
