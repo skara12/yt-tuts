@@ -1,4 +1,4 @@
-var search;
+var sear = "";
 
 
 
@@ -7,7 +7,7 @@ var search;
 function search(){
 	
 	var input = document.getElementsByName('search');
-	search = input.value;
+	sear = input.value;
 window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	
 }
@@ -35,7 +35,7 @@ function listlinks(){
 	links.forEach(link => {
 		
 		
-		if(link.indexOf(search) > 0){
+		if(link.indexOf(sear) > 0){
 			
 			
 			var title = link.split('.');
