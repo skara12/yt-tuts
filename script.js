@@ -54,11 +54,15 @@ function listlinks(){
 			section.appendChild(h2);
 			main.appendChild(section);
 			main.appendChild(hr);
+		
+		}
+		
+		
+		
 			 var section = document.createElement('section');
 	var h2 = document.createElement('h2');
 	var a = document.createElement('a');
 	var hr = document.createElement('hr');
-		}
 		
 		
 	});
