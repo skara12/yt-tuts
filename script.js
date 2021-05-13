@@ -48,11 +48,11 @@ function listlinks(){
 			
 			a.setAttribute("href",path + link);
 			
-			h2.append(a);
+			h2.appendChild(a);
 			
-			section.append(h2);
-			main.append(section);
-			main.append(hr);
+			section.appendChild(h2);
+			main.appendChild(section);
+			main.appendChild(hr);
 			
 		}
 		
