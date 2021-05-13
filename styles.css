@@ -147,6 +147,12 @@ line-height:1.6rem;
 padding:20px;
 
 }
+aside input#search{
+	
+	padding: 0px 20px 0px 20px;
+	
+	
+}
 aside ul{
 
 padding: 0px 20px 0px 20px;
