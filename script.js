@@ -18,7 +18,7 @@ function search(){
 	
 		
 	listlinks();	
-		
+	URLSearchParams.delete("element");	
 		
 	}
 	
@@ -48,6 +48,7 @@ function listlinks(){
 	else{
 		
 		var sear= pass;
+		URLSearchParams.delete("element");
 	}
 		
 	//console.log(sear);
