@@ -94,6 +94,10 @@ function listlinks(){
 	
 }
 function listlin(){
+	
+	
+	
+	setTimeout(function() { }, 400);
 //window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	var path = "blog/";
 	var links = ["Convert-Rubber-Ducky-to-Digispark-Script-for-different-Keyboard-Layouts.html",
