@@ -9,14 +9,24 @@ function search(){
 	//var input = document.getElementsByName('search');
 	//sear = input[0].value;
 	//console.log();
-//window.open("https://skara12.github.io/yt-tuts/search.html","_self");
+	//window.open("https://skara12.github.io/yt-tuts/search.html","_self");
+	
+	var para = new URLSearchParams(window.location.search);
+        var pass = para.get("element");
+	if(pass != null){
+	
+		
+	listlinks();	
+		
+		
+	}
 	
 }
 
 
 function listlinks(){
 	
-  
+  	
 	//window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	var path = "blog/";
 	var links = ["Convert-Rubber-Ducky-to-Digispark-Script-for-different-Keyboard-Layouts.html",
@@ -27,8 +37,13 @@ function listlinks(){
     "macrodroid-app-example-1.html",
     "macrodroid-app-example-2.html",
 	"macrodroid-app-example-3.html"];
+	var para = new URLSearchParams(window.location.search);
+        var pass = para.get("element");
+	if(pass ==null){
 	var input = document.getElementsByName('search');
 	var sear = input[0].value;
+	}
+		
 	//console.log(sear);
 
 
