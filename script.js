@@ -46,7 +46,7 @@ function listlinks(){
 	
 			
 			
-			var title = link.split('.');
+			var title = links[i].split('.');
 			
 			main.innerHTML +=  '<section>  <h2><a href="'+ path + links[i] + '">' + title[0].replaceAll("-", " ") + '</a></h2></section><hr>'; 
 			
