@@ -1,4 +1,4 @@
-var sear = "Wireshark";
+var sear = "";
 
 
 
