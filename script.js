@@ -31,12 +31,12 @@ function listlinks(){
       
 	
 	
-	links.forEach(link => {
+	for (i = 0; i < links.length; i++) {
 		
 		
-		console.log(link.includes(sear));
+		console.log(links[i].includes(sear));
 		
-		if(link.includes(sear)){
+		if(links[i].includes(sear)){
 			
 			
 				// var section = document.createElement('section');
@@ -48,7 +48,7 @@ function listlinks(){
 			
 			var title = link.split('.');
 			
-			main.innerHTML +=  '<section>  <h2><a href="'+ path + link + '">' + title[0].replaceAll("-", " ") + '</a></h2></section><hr>'; 
+			main.innerHTML +=  '<section>  <h2><a href="'+ path + links[i] + '">' + title[0].replaceAll("-", " ") + '</a></h2></section><hr>'; 
 			
 			//myobj.remove();
 			//textContent = "title";//.replaceAll("-", " ");
@@ -66,7 +66,7 @@ function listlinks(){
 		
 
 		
-	});
+	}
 	
 	
 
