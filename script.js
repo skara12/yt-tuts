@@ -54,7 +54,7 @@ function listlinks(){
 		
 		console.log(links[i].toUpperCase().includes(sear.toUpperCase()));
 		
-		if(links[i].toUpperCase().includes(sear.toUpperCase()){
+		if(links[i].toUpperCase().includes(sear.toUpperCase())){
 			
 			
 				// var section = document.createElement('section');
