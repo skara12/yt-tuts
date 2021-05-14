@@ -115,7 +115,9 @@ This Blog is for education on different topics
 function search(){	
 var para = new URLSearchParams();
 var element = document.getElementsByName("search");
+	
 para.append("element", element[0].value);
+console.log(element[0].value);	
 console.log(para.toString());
 location.href = "https://skara12.github.io/yt-tuts/search.html?" + para.toString();	
 window.open("https://skara12.github.io/yt-tuts/search.html","_self");
