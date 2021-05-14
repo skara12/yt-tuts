@@ -13,6 +13,7 @@ function search(){
 	
 	var para = new URLSearchParams(window.location.search);
         var pass = para.get("element");
+	consol.log(pass);
 	if(pass != null){
 	
 		
@@ -39,6 +40,7 @@ function listlinks(){
 	"macrodroid-app-example-3.html"];
 	var para = new URLSearchParams(window.location.search);
         var pass = para.get("element");
+	consol.log(pass);
 	if(pass ==null){
 	var input = document.getElementsByName('search');
 	var sear = input[0].value;
