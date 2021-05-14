@@ -8,8 +8,8 @@ function search(){
 	
 	//var input = document.getElementsByName('search');
 	//sear = input[0].value;
-	//console.log(sear);
-window.open("https://skara12.github.io/yt-tuts/search.html","_self");
+	//console.log();
+//window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	
 }
 
