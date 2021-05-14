@@ -43,6 +43,10 @@ function listlinks(){
 	var input = document.getElementsByName('search');
 	var sear = input[0].value;
 	}
+	else{
+		
+		var sear= pass;
+	}
 		
 	//console.log(sear);
 
