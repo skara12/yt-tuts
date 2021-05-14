@@ -49,6 +49,7 @@ function listlinks(){
 		
 		var sear= pass;
 		para.delete("element");
+		window.location.search = null;
 	}
 		
 	//console.log(sear);
