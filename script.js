@@ -36,7 +36,7 @@ function listlinks(){
 		
 		console.log(link.indexOf(sear));
 		
-		if(link.indexOf(sear) > 0){
+		if(link.includes(sear)){
 			
 			
 				// var section = document.createElement('section');
@@ -50,7 +50,7 @@ function listlinks(){
 			
 			main.innerHTML +=  '<section>  <h2><a href="'+ path + link + '">' + title[0].replaceAll("-", " ") + '</a></h2></section><hr>'; 
 			
-			
+			//myobj.remove();
 			//textContent = "title";//.replaceAll("-", " ");
 			
 			//a.setAttribute("href",path + link);
