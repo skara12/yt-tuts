@@ -52,7 +52,7 @@ function listlinks(){
 	for (i = 0; i < links.length; i++) {
 		
 		
-		console.log(links[i].includes(sear));
+		console.log(links[i].toUpperCase().includes(sear.toUpperCase()));
 		
 		if(links[i].includes(sear)){
 			
@@ -118,7 +118,7 @@ function listlin(){
 		
 		console.log(links[i].includes(sear));
 		
-		if(links[i].includes(sear)){
+		if(links[i].toUpperCase().includes(sear.toUpperCase())){
 			
 			
 				// var section = document.createElement('section');
