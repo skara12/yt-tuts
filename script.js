@@ -54,7 +54,7 @@ function listlinks(){
 		
 		console.log(links[i].toUpperCase().includes(sear.toUpperCase()));
 		
-		if(links[i].includes(sear)){
+		if(links[i].toUpperCase().includes(sear.toUpperCase()){
 			
 			
 				// var section = document.createElement('section');
@@ -97,7 +97,7 @@ function listlin(){
 	
 	
 	
-	setTimeout(function() { }, 400);
+	setTimeout(function() { }, 1000);
 //window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	var path = "blog/";
 	var links = ["Convert-Rubber-Ducky-to-Digispark-Script-for-different-Keyboard-Layouts.html",
