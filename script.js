@@ -34,13 +34,16 @@ function listlinks(){
 	links.forEach(link => {
 		
 		
-		 var section = document.createElement('section');
-	var h2 = document.createElement('h2');
-	var a = document.createElement('a');
-	var hr = document.createElement('hr');
 		console.log(link.indexOf(sear));
 		
 		if(link.indexOf(sear) > 0){
+			
+			
+				 var section = document.createElement('section');
+	var h2 = document.createElement('h2');
+	var a = document.createElement('a');
+	var hr = document.createElement('hr');
+	
 			
 			
 			var title = link.split('.');
@@ -52,7 +55,7 @@ function listlinks(){
 			h2.appendChild(a);
 			
 			section.appendChild(h2);
-			main.appendChild(section);
+			main.appendChild(section)
 			main.appendChild(hr);
 		
 		}
