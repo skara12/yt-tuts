@@ -93,9 +93,9 @@ function listlinks(){
 		
 	}
 	
-		para.delete("element");
-		pass = null;
-		window.location.search ="";
+		//para.delete("element");
+		//pass = null;
+		//window.location.search ="";
 
 		
 	
