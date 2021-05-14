@@ -1,4 +1,4 @@
-var sear;
+//var sear;
 
 
 
@@ -6,8 +6,8 @@ var sear;
 
 function search(){
 	
-	var input = document.getElementsByName('search');
-	sear = input[0].value;
+	//var input = document.getElementsByName('search');
+	//sear = input[0].value;
 	//console.log(sear);
 window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	
@@ -16,6 +16,8 @@ window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 
 function listlinks(){
 	
+
+	//window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	var path = "blog/";
 	var links = ["Convert-Rubber-Ducky-to-Digispark-Script-for-different-Keyboard-Layouts.html",
 	"Decoding-Wireshark-Keylogs-with-Python.html",
@@ -25,7 +27,10 @@ function listlinks(){
     "macrodroid-app-example-1.html",
     "macrodroid-app-example-2.html",
 	"macrodroid-app-example-3.html"];
-	
+	var input = document.getElementsByName('search');
+	var sear = input[0].value;
+	//console.log(sear);
+
 
 	var main = document.getElementById('main');
       
