@@ -18,7 +18,7 @@ function search(){
 	
 		
 	listlinks();	
-	para.delete("element");	
+	//para.delete("element");	
 		
 	}
 	
