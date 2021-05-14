@@ -49,7 +49,7 @@ function listlinks(){
 		
 		var sear= pass;
 		para.delete("element");
-		window.location.search = null;
+		//window.location.search = null;
 	}
 		
 	//console.log(sear);
@@ -91,10 +91,11 @@ function listlinks(){
 		
 		}
 		
-		
+	}
+	
+		window.location.search = null;
 
 		
-	}
 	
 	
 
