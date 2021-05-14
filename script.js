@@ -59,10 +59,10 @@ function listlinks(){
 		
 		
 		
-			 var section = document.createElement('section');
-	var h2 = document.createElement('h2');
-	var a = document.createElement('a');
-	var hr = document.createElement('hr');
+			 section = document.createElement('section');
+	 h2 = document.createElement('h2');
+	 a = document.createElement('a');
+	 hr = document.createElement('hr');
 		
 		
 	});
