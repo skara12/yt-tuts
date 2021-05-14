@@ -8,7 +8,7 @@ function search(){
 	
 	var input = document.getElementsByName('search');
 	sear = input[0].value;
-	console.log(sear);
+	//console.log(sear);
 window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 	
 }
@@ -34,7 +34,7 @@ function listlinks(){
 	links.forEach(link => {
 		
 		
-		console.log(link.indexOf(sear));
+		console.log(link.includes(sear));
 		
 		if(link.includes(sear)){
 			
