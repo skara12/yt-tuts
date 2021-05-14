@@ -48,7 +48,7 @@ function listlinks(){
 	else{
 		
 		var sear= pass;
-		para.delete("element");
+		
 		//window.location.search = null;
 	}
 		
@@ -93,7 +93,9 @@ function listlinks(){
 		
 	}
 	
-		window.location.search = null;
+		para.delete("element");
+		pass = null;
+		window.location.search ="";
 
 		
 	
