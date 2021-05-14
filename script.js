@@ -39,24 +39,27 @@ function listlinks(){
 		if(link.indexOf(sear) > 0){
 			
 			
-				 var section = document.createElement('section');
-	var h2 = document.createElement('h2');
-	var a = document.createElement('a');
-	var hr = document.createElement('hr');
+				// var section = document.createElement('section');
+	///var h2 = document.createElement('h2');
+	//var a = document.createElement('a');
+	//var hr = document.createElement('hr');
 	
 			
 			
 			var title = link.split('.');
 			
-			a.textContent = "title";//.replaceAll("-", " ");
+			main.innerHTML +=  '<section>  <h2><a href="'+ path + link + '">' + title[0].replaceAll("-", " ") + '</a></h2></section><hr>'; 
 			
-			a.setAttribute("href",path + link);
 			
-			h2.appendChild(a);
+			//textContent = "title";//.replaceAll("-", " ");
 			
-			section.appendChild(h2);
-			main.appendChild(section)
-			main.appendChild(hr);
+			//a.setAttribute("href",path + link);
+			
+			//h2.appendChild(a);
+			
+			//section.appendChild(h2);
+			//main.appendChild(section)
+			//main.appendChild(hr);
 		
 		}
 		
