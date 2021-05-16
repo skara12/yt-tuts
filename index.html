@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body >
 <div class="container">
 
 <header>
@@ -122,7 +122,24 @@ console.log(para.toString());
 location.href = "https://skara12.github.io/yt-tuts/search.html?" + para.toString();	
 //window.open("https://skara12.github.io/yt-tuts/search.html","_self");
 }	
+function cookie(){
 	
+if(document.cookie != null){
+	
+	
+	
+	document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+	
+	console.log(document.cookie);
+	
+	
+	
+}
+	
+	
+	
+	
+}
 	
 </script>
 </body>
