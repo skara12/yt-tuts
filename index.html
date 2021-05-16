@@ -150,10 +150,10 @@ function checkCookie() {
   if (user != "") {
    console.log(user);
   } else {
-	 user = "test"; 
+	 user = "1"; 
      //user = prompt("Please enter your name:","");
      if (user != "" && user != null) {
-       setCookie("username", user, 30);
+       setCookie("isread", user, 30);
      }
   }
 }
