@@ -121,7 +121,7 @@ Visitor: <span id="visitor">0</span>
 </footer>
 </div>
 <script>
-function CountVisitor(){
+function CVisitor(){
 var element= document.getElementById("visitor").innerHTML;
 var val = parseInt(element,10) + 1;
 element=  val;
@@ -187,7 +187,7 @@ function checkCookie() {
      //user = prompt("Please enter your name:","");
      if (user != "" && user != null) {
        setCookie("isread", user, 30);
-	CountVisitor();
+	CVisitor();
      }
   }
 }
