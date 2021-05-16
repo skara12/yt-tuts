@@ -145,10 +145,28 @@ function getCookie(cname) {
   return "";
 }
 
+	
+function WriteFile(string)
+{
+
+var fh = fopen("log.txt", 3); // Open the file for writing
+n
+if(fh!=-1) // If the file has been successfully opened
+{
+    var str = string + "\n";
+    fwrite(fh, str); // Write the string to a file
+    fclose(fh); // Close the file
+}
+
+}
+
+	
+	
 function checkCookie() {
   var user=getCookie("isread");
   if (user != "") {
-   console.log(user);
+   //console.log(user);
+   WriteFile(user);
   } else {
 	 user = "1"; 
      //user = prompt("Please enter your name:","");
