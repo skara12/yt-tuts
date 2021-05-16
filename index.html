@@ -122,9 +122,9 @@ Visitor: <span id="visitor">0</span>
 </div>
 <script>
 function countVisitor(){
-var element= document.getElementById("visitor").innerHTML;
-var val = parseInt(element,10) + 1;
-element=  val;
+var count= document.getElementById("visitor").innerHTML;
+var val = parseInt(count,10) + 1;
+document.getElementById("visitor").innerHTML =  val;
 }
 function search(){	
 var para = new URLSearchParams();
